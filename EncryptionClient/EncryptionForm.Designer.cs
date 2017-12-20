@@ -53,6 +53,7 @@
             this.encryptionButton.TabIndex = 1;
             this.encryptionButton.Text = "Encrypt";
             this.encryptionButton.UseVisualStyleBackColor = true;
+            this.encryptionButton.Click += new System.EventHandler(this.encryptionButton_Click);
             // 
             // decryptionButton
             // 
@@ -62,6 +63,7 @@
             this.decryptionButton.TabIndex = 2;
             this.decryptionButton.Text = "Decrypt";
             this.decryptionButton.UseVisualStyleBackColor = true;
+            this.decryptionButton.Click += new System.EventHandler(this.decryptionButton_Click);
             // 
             // selectProfileLabel
             // 
